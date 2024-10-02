@@ -19,6 +19,7 @@ dialog[open]::backdrop {
     background: linear-gradient(to bottom, #fffffff3, cornflowerblue);
     backdrop-filter: blur(10px);
 }
+
 dialog[open] {
     margin: auto;
     
