@@ -16,17 +16,3 @@ function toggleDialog(btn) {
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    var userAgent = window.navigator.userAgent.toLowerCase(),
-        safari = /safari/.test(userAgent),
-        ios = /iphone|ipod|ipad/.test(userAgent);
-  
-    if(ios) {
-        if (!safari) {
-            // ios webview
-            document.getElementById("header").style.display = "none";
-            document.getElementById("nav-toggle").style.display = "none";
-            document.getElementById("footer").style.display = "none";
-        };
-    };
-}, false);
